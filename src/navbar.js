@@ -1,22 +1,19 @@
-const Navbar= ()=>{
-    return (
-        <nav className="navbar">
-            <div>
-                <h1>The Menza Blog</h1>
-            </div>
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="/about" style={{
-                    color:'white',
-                    backgroundColor:'#f1356d',
-                    borderRadius:'5px',
-                    padding:'10px 20px',
-                    textDecoration:'none',
-                    fontWeight:'bold',
-                    transition:'all 0.3s ease-in-out'   
-                }}>New Blog </a>
-            </div>
-        </nav>
-    )
+// import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <h1>The Dojo Blog</h1>
+      <div className="links">
+        <Link to="/">Home</Link>
+        <Link to="/create" style={{ 
+          color: 'white', 
+          backgroundColor: '#f1356d',
+          borderRadius: '8px' 
+        }}>New Blog</Link>
+      </div>
+    </nav>
+  );
 }
+ 
 export default Navbar;
