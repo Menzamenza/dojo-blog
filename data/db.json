@@ -1,0 +1,16 @@
+{
+    "blogs":[
+        {
+            "title": "My first blog",
+            "body": "lorem ipsum dolor sit amet, consectet  ut labore et ",
+            "author": "Menza",
+            "id": 1
+        },
+        {
+            "title": "Party!",
+            "body": "lorem ipsum dolor sit amet, consectet  ut labore et ",
+            "author": "Youshi",
+            "id": 2
+        }
+    ]
+}

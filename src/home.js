@@ -4,15 +4,7 @@ import BlogList from "./blogList";
 
 const Home = () => {
 
-    // // Create a new instance of the Home component and attach it to the component using the hook useState
-    // const [name,setName] = useState ('Luigi'); 
-    // const [age,setAge] = useState (21); 
-
-    // //create a new function that will be called when the user clicks on the Home button on the current page 
-    // const handleClick = () => {
-    //     setName('Mariama');
-    //     setAge(30);
-    // };
+  
 
     const [blogs,setBlogs]= useState(
         [
